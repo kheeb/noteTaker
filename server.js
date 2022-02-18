@@ -1,16 +1,16 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-
-
+const api = require('./routes/index.js');
 
 const PORT = process.env.PORT || 3001
 
 const app = express();
 
+// middleware to parse JSON and urlencoded data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
-// app.use('/api', api)
+app.use('/api', api);
 
 app.get('/api/notes', (req, res) => {
     let allNotes = fs.readFileSync(path.join(__dirname, './db/db.json'));
@@ -18,14 +18,14 @@ app.get('/api/notes', (req, res) => {
     res.json(allNotes);
 });
 
-app.post('/api/notes', (req, res) => {
-    let allNotes = fs.readFileSync(path.join(__dirname, './db/db.json'));
-    allNotes = JSON.parse(allNotes);
-    allNotes.push(req.body);
-    fs.writeFileSync(path.join(__dirname, './db/db.json'), JSON.stringify(allNotes));
-    res.json(allNotes);
-    console.log(req.body)
-});
+// app.post('/api/notes', (req, res) => {
+//     let allNotes = fs.readFileSync(path.join(__dirname, './db/db.json'));
+//     allNotes = JSON.parse(allNotes);
+//     allNotes.push(req.body);
+//     fs.writeFileSync(path.join(__dirname, './db/db.json'), JSON.stringify(allNotes));
+//     res.json(allNotes);
+//     console.log(req.body)
+// });
 
 app.use(express.static('public'));
 

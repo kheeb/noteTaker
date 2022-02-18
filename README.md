@@ -14,7 +14,7 @@ Keep all your ideas in one digital location with this simple note taking tool. A
  - [Questions](#questions)
 
 ## Deployment
-
+https://note-taking-tool.herokuapp.com/
 
 ## User Story
 ```md
@@ -27,7 +27,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 Check out the application deployed in the link to get started. In the title field, enter what you'd like to call your note, followed by the note itself within the text area. When you've finished, click the save icon in the top right corner to add this note to your list.
 
 ## Demo
-![NoteTakingTool demo]()
+![NoteTakingTool demo](./public/assets/demoPhoto.png)
   
 ## License
 MIT is the chosen license for this project.

@@ -27,8 +27,11 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 Check out the application deployed in the link to get started. In the title field, enter what you'd like to call your note, followed by the note itself within the text area. When you've finished, click the save icon in the top right corner to add this note to your list.
 
 ## Demo
-![NoteTakingTool demo](./public/assets/demoPhoto.png)
-  
+![noteTakerDemo](https://user-images.githubusercontent.com/93744725/154707382-42cca6ef-66bf-49ef-9c2a-1003d10de269.png)
+
+![noteTakernotePage](https://user-images.githubusercontent.com/93744725/154707721-d80c4194-cfd4-48de-9ad6-7cbff65638b9.png)
+
+
 ## License
 MIT is the chosen license for this project.
 * https://opensource.org/licenses/MIT

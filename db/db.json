@@ -1,7 +1,17 @@
 [
     {
-        "title": "test note",
-        "text": "this is a test",
-        "id": "e5241bfd5c3f51eba6cd"
+        "title": "to do's",
+        "text": "answer emails, call insurance company, buy stamps",
+        "id": "132c6c5ab254a1dfc53b"
+    },
+    {
+        "title": "inventory replen",
+        "text": "pillow cases, glass knots, throw blankets, candles",
+        "id": "a2f2a516b31d5cd1f1e1"
+    },
+    {
+        "title": "employee of the month",
+        "text": "Jan - Jackson\nFeb - Debbie\nMar - Mary Ann\nApr - Jennifer\nMay - Ashley\nJune - Christina\nJuly - Drew\nAug - Tou\nSep - Jackye\nOct - tbd\nNov - tbd\nDec - tbd",
+        "id": "dbd3f5b6f662cd3ccf62"
     }
 ]
